@@ -20,7 +20,7 @@ function App() {
     return (
         <div>
             <h1 className="heading">My Contacts</h1>
-            <Avatar img="https://scontent.fsof11-1.fna.fbcdn.net/v/t39.30808-6/271661026_5383711081643789_5680859784590421635_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=oEj9HCWjIvsAX8iLR-V&_nc_ht=scontent.fsof11-1.fna&oh=00_AfBX0nipIAWG06gsT7FkPrUuHeQSCdTkzyHIfYX90r4nQQ&oe=63949287" />
+            <Avatar img="https://media-exp1.licdn.com/dms/image/D4D03AQEUtH1XQkCLJg/profile-displayphoto-shrink_800_800/0/1664544635467?e=1675900800&v=beta&t=dzkUMfdzC6NvWTbrMe1A-GWmF88Rkol1HII5kqjZWUA" />
             {contacts.map(createCard)}
         </div>
     );
